@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(https://images.pexels.com/photos/209807/pexels-photo-209807.jpeg?cs=srgb&dl=pexels-pixabay-209807.jpg&fm=jpg);
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .hi{
+             text-align: center;
+        }
+       
+    </style>    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body{
+                background-image: url(https://images.pexels.com/photos/209807/pexels-photo-209807.jpeg?cs=srgb&dl=pexels-pixabay-209807.jpg&fm=jpg);
+                background-size: cover;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .hi{
+                text-align: center;
+            }
+        
+        </style>
+    </head>
+    <body id="adi">
+    <div class="hi" id="bye">
+        <h1 id="esu">Dark and Light</h1>
+        <input type="text" id="mani" style="width: 70%;">
+    </div>
+        <script>
+            let id= document.getElementById("mani")
+            let adi=document.getElementById("adi")
+            let esu=document.getElementById("esu")
+            
+        
+            id.addEventListener("keydown",(event)=>{
+                let input=id.value
+                if(event.key==="Enter"){
+                if(input==="Dark"){
+                    adi.style.backgroundImage="url('https://t4.ftcdn.net/jpg/02/98/13/93/360_F_298139354_B8MchbDhUhOuAfcewRxZ9AUOKV9vsWAt.jpg')";
+                    esu.style.color="white";
+                }
+                else if(input==="Light"){
+                    adi.style.backgroundImage="url('https://images.pexels.com/photos/209807/pexels-photo-209807.jpeg?cs=srgb&dl=pexels-pixabay-209807.jpg')";
+                    esu.style.color="black";
+                }
+                else{
+                    alert("enter Light or Dark");
+                }
+                }
+                
+            })
+        </script>
+    </body>
+    </html>
+</head>
+<body id="adi">
+   <div class="hi" id="bye">
+    <h1 id="esu">Dark and Light</h1>
+    <input type="text" id="mani" style="width: 70%;">
+  </div>
+    <script>
+        let id= document.getElementById("mani")
+        let adi=document.getElementById("adi")
+        let esu=document.getElementById("esu")
+        
+      
+        id.addEventListener("keydown",(event)=>{
+            let input=id.value
+            if(event.key==="Enter"){
+               if(input==="Dark"){
+                 adi.style.backgroundImage="url('https://t4.ftcdn.net/jpg/02/98/13/93/360_F_298139354_B8MchbDhUhOuAfcewRxZ9AUOKV9vsWAt.jpg')";
+                 esu.style.color="white";
+               }
+               else if(input==="Light"){
+                adi.style.backgroundImage="url('https://images.pexels.com/photos/209807/pexels-photo-209807.jpeg?cs=srgb&dl=pexels-pixabay-209807.jpg')";
+                 esu.style.color="black";
+               }
+               else{
+                alert("enter Light or Dark");
+               }
+            }
+            
+        })
+    </script>
+</body>
+</html>
