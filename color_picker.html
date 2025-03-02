@@ -18,7 +18,7 @@
         }
     </style>
 </head>
-<body>
+<body id="body">
     <div class="container">
     <h1>Color Picker</h1>
  
@@ -32,15 +32,32 @@
     </div>
 </body>
 <script>
-        var b1 = document.getElementbyId("b1")
+    var b1 = document.getElementbyId("b1")
     var b2 = document.getElementbyId("b2")
     var b3 = document.getElementbyId("b3")
     var b4 = document.getElementbyId("b4")
     var bg = document.getElementbyId("bg")
+    var body=document.getElementById("body")
 
        b1.addEventListener("click",()=>{
          
-         style.backgroundColor=#e0e0e0;
-bg.innerHTML=#e0e0e0;
+         body.style.backgroundColor="#e0e0e0";
+          bg.innerHTML="#e0e0e0";
+       })
+       b2.addEventListener("click",()=>{
+         
+         body.style.backgroundColor= "#6fcf97";
+          bg.innerHTML="#6fcf97";
+       })
+       b3.addEventListener("click",()=>{
+         
+         body.style.backgroundColor= "#56ccf2";
+          bg.innerHTML="#56ccf2";
+       })
+       b4.addEventListener("click",()=>{
+         
+         body.style.backgroundColor= "#bb6bd9";
+          bg.innerHTML="#bb6bd9";
+       })
 </script>
 </html>
