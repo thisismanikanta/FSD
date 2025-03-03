@@ -6,7 +6,69 @@
     <title>Document</title>
     <style>
         .container{
+            margin: 30% auto;<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
             margin: 30% auto;
+            text-align: center;
+            font-size: 30px;
+        }
+        button{
+             height: 100px;
+             width: 100px;
+             border-radius: 20px;
+             border: 3px solid;
+        }
+    </style>
+</head>
+<body id="body">
+    <div class="container">
+    <h1>Color Picker</h1>
+ 
+    <button id="b1" style="background-color:#e0e0e0;">gray</button>
+    <button id="b2" style="background-color:#6fcf97;">green</button>
+    <button id="b3" style="background-color:#56ccf2;">blue</button>
+    <button id="b4" style="background-color:#bb6bd9;">pink</button>
+    
+    <div class="box5" style="background-color: black;color: white;padding: 10px;margin-top: 30px;border-radius: 10px;">Background Color:<span id="bg">#fffff</span></div>
+    <p>Try clicking on one of the above colors to change the background color of this page!</p>
+    </div>
+</body>
+<script>
+    var b1 = document.getElementById("b1")
+    var b2 = document.getElementById("b2")
+    var b3 = document.getElementById("b3")
+    var b4 = document.getElementById("b4")
+    var bg = document.getElementById("bg")
+    var body=document.getElementById("body")
+
+       b1.addEventListener("click",()=>{
+         
+         body.style.backgroundColor="#e0e0e0";
+          bg.innerHTML="#e0e0e0";
+       })
+       b2.addEventListener("click",()=>{
+         
+         body.style.backgroundColor= "#6fcf97";
+          bg.innerHTML="#6fcf97";
+       })
+       b3.addEventListener("click",()=>{
+         
+         body.style.backgroundColor= "#56ccf2";
+          bg.innerHTML="#56ccf2";
+       })
+       b4.addEventListener("click",()=>{
+         
+         body.style.backgroundColor= "#bb6bd9";
+          bg.innerHTML="#bb6bd9";
+       })
+</script>
+</html>
             text-align: center;
             font-size: 30px;
         }
