@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+#navbar{
+    height: 60px;
+    background-color: #0f1111; 
+    color: white;
+    display: flex;
+}
+#nav-logo{
+    height: 53px;
+    width: 100px;
+    margin-top: 2px;
+     
+}
+#nav-logo:hover{
+    border: 2px solid white;
+}
+#logo{
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+#border:hover{
+    border: 2px solid white;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+#nav-address{
+    display: flex;
+    padding-top: 8px;
+    margin: 2px;
+}
+#nav-address:hover{
+    border: 2px solid white;
+}
+#add-logo{
+    padding: 12px 0px 0px 0px;
+    margin: 5px;
+}
+#location{
+    width: 230px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+#nav-fill{
+    color: #0f1111;
+    height: 60px;
+    width: 800px;
+    border-radius: 5px;
+    margin-left: 10px;
+
+}
+#nav-search{
+    height: 60px;
+    width: 1064px;
+    color: #0f1111;
+   margin-top: 13px;
+    display: flex;
+}
+#all{
+    height: 35px;
+    width:50px;
+    margin-left: 0px;
+    background-color: #E6E6E6;
+    padding: 0px 0px 0px 5px;
+    border-top-left-radius:4px;
+    border-bottom-left-radius: 4px;
+}
+#search{
+    width: 700px;
+    height: 30px;
+    margin-left: 0px;
+}
+#mag{
+    background-color: orange ;
+    height: 35.8px;
+    width: 40px;
+    border-bottom-right-radius:4px;
+    border-top-right-radius: 4px;
+}
+#rpart{
+    display: flex;
+    margin-left: 0px;
+}
+#en{
+    width: 57px;
+    height: 52px;
+    margin: 1px;
+ 
+    
+}
+#en:hover{
+    border: 2px solid white;
+}
+.lang{
+        background-color:#0f1111 ;
+        color: #D6D6D6;
+        width: 45px;
+        height: 34px;
+        border: none;
+        margin-top: 10px;
+    }
+#signin{
+    margin:1px;
+    height: 50px;
+    width: 130px;
+    padding-top: 7px;
+}
+#list{
+    width: 70px;
+}
+#signin:hover{
+    border: 2px solid white;
+}
+#AL{
+    background-color: #0f1111;
+    color: #D6D6D6;
+    border: none;
+    font-weight: 3000px;  
+}
+#p{
+    font-size: 15px;
+    margin: 1px;
+}
+#ro{
+    margin: 1px;
+    padding: 8px;
+}
+#ro:hover{
+    border: 2px solid white;
+}
+#cart{
+    display: flex;
+    margin:1px;
+    padding: 6px;
+}
+#cart:hover{
+    border: 2px solid white;
+}
+#cart-logo{
+    padding: 1px 0px 12px 0px;
+    margin: 5px;
+}
+#sec-bar{
+    background-color: #232F3E;
+    height: 40px;
+    color: white;
+    display: flex;
+    
+}
+#All{
+    margin:10px;
+    display: flex;
+}
+#toggle{
+    margin-right: 5px;
+}
+#sec-names{
+    display: flex;
+    margin-left: 10px;
+}
+.mani{
+    background-color: #232F3E;
+    color: white;
+    border: none;
+    border: 1px solid transparent;
+
+}
+#list{
+    font-weight: 1000px !important;
+
+}
+.box1{
+    background-color: #D6D6D6;
+    border-radius: 4rem;
+}
+#body{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/GW/P42/Boult_3000x1200-PC._CB543542644_.jpg);
+    height: 600px;
+    background-size: cover;
+}
